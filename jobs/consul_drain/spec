@@ -6,12 +6,15 @@ templates: {}
 consumes:
 - name: consul_agent
   type: consul_agent
+  optional: true
 
 - name: consul_client
   type: consul_client
+  optional: true
 
 - name: consul_common
   type: consul_common
+  optional: true
 
 packages: []
 
